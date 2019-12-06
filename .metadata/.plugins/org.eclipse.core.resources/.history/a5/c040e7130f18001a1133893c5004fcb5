@@ -1,0 +1,10 @@
+package pojos;
+
+public class Voter {
+
+	private int id;
+	private String email;
+	private String password;
+	private int status;
+	
+}

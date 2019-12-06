@@ -1,0 +1,12 @@
+package dao;
+
+import pojos.Voter;
+
+public class VotersDaoImple {
+
+	public Voter validateUser(String parameter, String parameter2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

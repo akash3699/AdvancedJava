@@ -1,0 +1,37 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import static utils.DBUtils.*;
+import pojos.Voter;
+
+public class VotersDaoImple {
+
+	private Connection cn;
+	private PreparedStatement pst1;
+	
+	public VotersDaoImple() throws Exception {
+		// get cn from DBUtils
+				cn = getConnection();
+				// pst for validation
+				pst1 = cn.prepareStatement("select * from voters where email=? and password=?");
+				System.out.println("customer dao created....");
+	}
+
+	public Voter validateUser(String parameter, String parameter2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void cleanUp() throws Exception {
+		// TODO Auto-generated method stub
+		if (pst1 != null)
+			pst1.close();
+		if (cn != null)
+			cn.close();
+		System.out.println("voter dao cleaned up");
+	}
+
+}
