@@ -22,13 +22,16 @@
 					getServletContext().getAttribute("all_tuts")).keySet(); */
 					List<Tutorial> keys = (((HashMap<String, List<Tutorial>>) getServletContext().getAttribute("all_tuts")).get(request.getParameter("topic")));
 					System.out.println(keys);
+					Integer sr=1;
 			for(Tutorial s : keys) 
 			{
+				
 			%>
 			<tr>
-			<td><input type="radio" name="topic" value="<%=s.getDetails()%>"/></td><td><%=s.getDetails()%></td><td> <%=s.getAuthor()%></td><br>
+			<td><%=sr%></td><td><%=s.getDetails()%></td><td> <%=s.getAuthor()%></td><br>
 			</tr>
 			<%
+			sr = sr+1;
 			}
 			%>
 			</table>
