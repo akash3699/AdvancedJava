@@ -168,6 +168,7 @@
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/sunbeam/DAC_ASSIGN/java2/day3_data/eclipse_projects/day3.2"/>
 			<item value="/home/sunbeam/DAC_ASSIGN/java2/day2_eve_data/eclipse_projects/day2.2"/>
 			<item value="/home/sunbeam/DAC_ASSIGN/java2/day2.1_data/eclipse_projects/day2.1"/>
 		</list>

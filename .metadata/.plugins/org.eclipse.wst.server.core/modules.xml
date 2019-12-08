@@ -2,6 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:day2Lab" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:day2.1Lab" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:day4.1" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:day3Lab" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Day1" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>
