@@ -80,13 +80,20 @@ public class VoterBean {
 			System.out.println("in B.L auth "+email+" "+password);
 			details=dao.authenticateVoter(email, password);
 			if(details != null) {
-				if(details.getStatus()==0)
+				if(details.getRole().equals("admin"))
 				{
-					message="Login Successful";
-					return "candidateList";
+					return "adminpanel";
 				}
-				message="Already Casted the Vote";
-				return "status";//returning dyn nav outcome to JSP
+				else
+				{
+					if(details.getStatus()==0)
+					{
+						message="Login Successful";
+						return "candidateList";
+					}
+					message="Already Casted the Vote";
+					return "status";//returning dyn nav outcome to JSP
+				}
 			}
 			message="Invalid Login ,Pls Retry";
 			return "login";//returning dyn nav outcome to JSP
