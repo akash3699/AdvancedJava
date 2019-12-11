@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [12/Dec/2018:15:38:55 +0530] "GET / HTTP/1.1" 200 11286
+0:0:0:0:0:0:0:1 - - [12/Dec/2018:15:38:55 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [12/Dec/2018:15:39:03 +0530] "GET /manager/html HTTP/1.1" 401 2473
+0:0:0:0:0:0:0:1 - manager [12/Dec/2018:15:39:09 +0530] "GET /manager/html HTTP/1.1" 200 19556
+0:0:0:0:0:0:0:1 - manager [12/Dec/2018:15:40:32 +0530] "POST /manager/html/upload;jsessionid=ED20170AF0E4DF4263CA48B6840B2FCF?org.apache.catalina.filters.CSRF_NONCE=DA6EE2706405925339EB41F16351475D HTTP/1.1" 200 20057
+0:0:0:0:0:0:0:1 - - [12/Dec/2018:15:40:46 +0530] "GET /day9_rest_server/ HTTP/1.1" 200 152

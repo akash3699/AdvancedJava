@@ -1,0 +1,126 @@
+23-Dec-2018 16:46:27.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.35
+23-Dec-2018 16:46:27.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2018 17:39:20 UTC
+23-Dec-2018 16:46:27.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.35.0
+23-Dec-2018 16:46:27.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Dec-2018 16:46:27.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-29-generic
+23-Dec-2018 16:46:27.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Dec-2018 16:46:27.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-Dec-2018 16:46:27.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11
+23-Dec-2018 16:46:27.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Dec-2018 16:46:27.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 16:46:27.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/madhura/apache-tomcat-8.5.35/conf/logging.properties
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Dec-2018 16:46:27.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Dec-2018 16:46:27.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 16:46:27.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 16:46:27.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/madhura/apache-tomcat-8.5.35/temp
+23-Dec-2018 16:46:27.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-Dec-2018 16:46:27.453 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 16:46:27.465 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2018 16:46:27.479 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 16:46:27.482 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2018 16:46:27.482 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 490 ms
+23-Dec-2018 16:46:27.517 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Dec-2018 16:46:27.518 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.35
+23-Dec-2018 16:46:27.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/madhura/apache-tomcat-8.5.35/webapps/day9_rest_server.war]
+23-Dec-2018 16:46:30.018 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:33.678 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/madhura/apache-tomcat-8.5.35/webapps/day9_rest_server.war] has finished in [6,114] ms
+23-Dec-2018 16:46:33.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/ROOT]
+23-Dec-2018 16:46:33.851 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:33.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/ROOT] has finished in [175] ms
+23-Dec-2018 16:46:33.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/docs]
+23-Dec-2018 16:46:34.015 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:34.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/docs] has finished in [178] ms
+23-Dec-2018 16:46:34.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/examples]
+23-Dec-2018 16:46:34.498 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:34.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/examples] has finished in [484] ms
+23-Dec-2018 16:46:34.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/manager]
+23-Dec-2018 16:46:34.669 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:34.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/manager] has finished in [172] ms
+23-Dec-2018 16:46:34.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/host-manager]
+23-Dec-2018 16:46:34.839 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 16:46:34.841 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/host-manager] has finished in [153] ms
+23-Dec-2018 16:46:34.845 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 16:46:34.871 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 16:46:34.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7399 ms
+23-Dec-2018 16:47:07.493 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [day9_rest_server] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Dec-2018 16:47:07.494 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [day9_rest_server] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Dec-2018 16:47:07.495 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [day9_rest_server] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+23-Dec-2018 16:47:13.726 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/day9_rest_server]] after stop() had already been called. The second call will be ignored.
+23-Dec-2018 16:47:14.230 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/day9_rest_server]
+23-Dec-2018 16:47:33.963 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 16:47:33.971 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 16:47:33.977 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Dec-2018 16:47:34.025 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 16:47:34.027 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 16:47:34.028 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 16:47:34.029 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 17:10:33.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.35
+23-Dec-2018 17:10:33.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2018 17:39:20 UTC
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.35.0
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-29-generic
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 17:10:33.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/madhura/apache-tomcat-8.5.35/conf/logging.properties
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/madhura/apache-tomcat-8.5.35
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/madhura/apache-tomcat-8.5.35/temp
+23-Dec-2018 17:10:33.057 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-Dec-2018 17:10:33.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 17:10:33.167 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2018 17:10:33.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 17:10:33.187 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2018 17:10:33.190 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 542 ms
+23-Dec-2018 17:10:33.240 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Dec-2018 17:10:33.241 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.35
+23-Dec-2018 17:10:33.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/ROOT]
+23-Dec-2018 17:10:33.820 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:10:33.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/ROOT] has finished in [610] ms
+23-Dec-2018 17:10:33.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/docs]
+23-Dec-2018 17:10:34.034 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:10:34.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/docs] has finished in [174] ms
+23-Dec-2018 17:10:34.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/examples]
+23-Dec-2018 17:10:34.330 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:10:34.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/examples] has finished in [312] ms
+23-Dec-2018 17:10:34.351 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/manager]
+23-Dec-2018 17:10:34.518 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:10:34.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/manager] has finished in [261] ms
+23-Dec-2018 17:10:34.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/host-manager]
+23-Dec-2018 17:10:34.748 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:10:34.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhura/apache-tomcat-8.5.35/webapps/host-manager] has finished in [139] ms
+23-Dec-2018 17:10:34.754 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 17:10:34.774 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 17:10:34.776 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1585 ms
+23-Dec-2018 17:11:56.500 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/madhura/apache-tomcat-8.5.35/webapps/day12.3_rest_server.war]
+23-Dec-2018 17:11:57.679 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2018 17:12:00.920 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/madhura/apache-tomcat-8.5.35/webapps/day12.3_rest_server.war] has finished in [4,419] ms
+23-Dec-2018 17:29:53.908 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 17:29:53.910 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 17:29:53.916 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Dec-2018 17:29:53.963 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [day12.3_rest_server] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Dec-2018 17:29:53.963 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [day12.3_rest_server] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Dec-2018 17:29:53.964 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [day12.3_rest_server] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+23-Dec-2018 17:29:53.973 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 17:29:53.975 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2018 17:29:53.977 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Dec-2018 17:29:53.977 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
