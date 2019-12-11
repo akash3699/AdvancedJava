@@ -11,5 +11,7 @@ public interface IVendorDao {
 	Vendors getDetails(int id);
 	List<Vendors> getAllVendors();
 	List<Vendors> getSelectedVendors(Date dt,double amount);
+	List<Object[]> getUsersByRole();
+	List<Vendors> getSelectedUsersDetails(Date d1);
 	
 }

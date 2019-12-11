@@ -10,6 +10,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 
+
 import pojos.Vendors;
 
 public class VendorDao implements IVendorDao
@@ -96,5 +97,41 @@ public class VendorDao implements IVendorDao
 		return users;
 	}
 	
+	@Override
+	public List<Object[]> getUsersByRole() {
+		List<Object[]> users = null;
+		String jpql = "select v.role, count(v.role) from Vendors v Group By v.role ";
+		// session
+		Session hs = getSf().getCurrentSession();
+		// tx
+		Transaction tx = hs.beginTransaction();
+		try {
+			users = hs.createQuery(jpql, Object[].class).getResultList();
+			tx.commit();
+		} catch (HibernateException e) {
+			if (tx != null)
+				tx.rollback();
+			throw e;
+		}
+		return users;
+	}
+	
+	public List<Vendors> getSelectedUsersDetails(Date d1) {
+		List<Vendors> users = null;
+		String jpql = "select new pojos.Vendors(v.name,v.email,v.reg_amount)  from Vendors v ORDER BY  v.reg_amount ";
+		//get session from SF
+				Session hs=getSf().getCurrentSession();
+				//tx
+				Transaction tx=hs.beginTransaction();
+				try {
+					users=hs.createQuery(jpql, Vendors.class).getResultList();
+					tx.commit();
+				}catch (HibernateException e) {
+					if (tx != null)
+						tx.rollback();
+					throw e;
+				}
+		return users;
+	}
 
 }

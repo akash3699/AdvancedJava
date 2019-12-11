@@ -26,6 +26,18 @@ public class Vendors {
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * @param name
+	 * @param email
+	 * @param reg_amount
+	 */
+	public Vendors(String name, String email, Double reg_amount) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.reg_amount = reg_amount;
+	}
+
 	public Vendors(String name, String email, String password, Double reg_amount, Date reg_date, UserRole role) {
 		super();
 		this.name = name;
