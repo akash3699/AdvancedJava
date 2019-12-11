@@ -36,14 +36,18 @@ public class UserDaoImpl implements IUserDao {
 	public User getDetails(int id) {
 		User u = null;// u --- Doesn't exist
 		// get sesison from SF
-		Session hs = getSf().openSession();
+		Session hs = getSf().getCurrentSession();
+		Session hs2 = getSf().getCurrentSession();
 		// begin tx
 		Transaction tx = hs.beginTransaction();
+		System.out.println(hs==hs2);
+		System.out.println(hs.isOpen()+"  "+ hs.isConnected());
 		try {
 			u = hs.get(User.class, id); // if id exists --- u -- PERSISTENT
 			u = hs.get(User.class, id);
 			u = hs.get(User.class, id);
 			tx.commit();
+			System.out.println(hs.isOpen()+"  "+ hs.isConnected());
 		} catch (HibernateException e) {
 			if (tx != null)
 				tx.rollback();
@@ -52,7 +56,7 @@ public class UserDaoImpl implements IUserDao {
 			if (hs != null)
 				hs.close();// L1 cache is destroyed,cn rets to the pool , session is closed
 		}
-
+		System.out.println(hs.isOpen()+"  "+ hs.isConnected());
 		return u; // u -- DETACHED
 	}
 
