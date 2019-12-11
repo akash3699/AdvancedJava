@@ -79,7 +79,7 @@ public class VendorDao implements IVendorDao
 	@Override
 	public List<Vendors> getSelectedVendors(Date dt, double amount) {
 		List<Vendors> users = null;
-		String jpql = "select v from Vendors v where v.reg_date between :strt and DATE() and v.reg_amount < :am ";
+		String jpql = "select v from Vendors v where v.reg_date between :strt and now() and v.reg_amount < :am ";
 		// session
 		Session hs = getSf().getCurrentSession();
 		// tx
