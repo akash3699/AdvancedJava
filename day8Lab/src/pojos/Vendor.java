@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "vendor")
 public class Vendor {
-	private Integer vendorId;
+	private Integer id;
 	private List<BankAccount> bankAccounts = new ArrayList<>();
 	private String name, email, password;
 	private Double reg_amount;
@@ -42,12 +42,12 @@ public class Vendor {
 	}
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 
-	public Integer getVendorId() {
-		return vendorId;
+	public Integer getid() {
+		return id;
 	}
 
-	public void setVendorId(Integer id) {
-		this.vendorId = id;
+	public void setid(Integer id) {
+		this.id = id;
 	}
 	@Column(length = 20)
 	public String getName() {
@@ -111,7 +111,7 @@ public class Vendor {
 
 	@Override
 	public String toString() {
-		return "Vendor [vendorId=" + vendorId + ", name=" + name + ", email=" + email + ", password=" + password
+		return "Vendor [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password
 				+ ", reg_amount=" + reg_amount + ", reg_date=" + reg_date + ", role=" + role + "]";
 	}
 

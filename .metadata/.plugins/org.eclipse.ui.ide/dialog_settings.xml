@@ -168,6 +168,9 @@
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/sunbeam/Downloads/day10_data/eclipse_projects/day10.1_bean_life_cycle"/>
+			<item value="/home/sunbeam/DAC_ASSIGN/java2/day9_data/eclipse_projects/day9.2_web_hibernate"/>
+			<item value="/home/sunbeam/DAC_ASSIGN/java2/day9_data/eclipse_projects/day9.1"/>
 			<item value="/home/sunbeam/DAC_ASSIGN/java2/day8_data/eclipse_projects/day8.2"/>
 			<item value="/home/sunbeam/DAC_ASSIGN/java2/day8_data/eclipse_projects/day8.1"/>
 			<item value="/home/sunbeam/DAC_ASSIGN/java2/day7_data/eclipse_projects/day7.1"/>
@@ -187,5 +190,8 @@
 		<item key="DIALOG_WIDTH" value="731"/>
 		<item key="DIALOG_HEIGHT" value="433"/>
 		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 </section>
